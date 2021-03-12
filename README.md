@@ -37,26 +37,54 @@ Figure 2: The try-on optimization setup illustrated here takes two latent codes 
 <p>VOGUE can transfer garments between different poses and body shapes. It preserves garment details (shape, pattern, color, texture) and person identity (hair, skin color, pose). </p>
 	
 #### Shirt Try-On
-<div align="center">
-    <img class="gif" src="static_files/resources/demo-shirts-slow.gif">
-</div>
-
 With VOGUE, the same person can try on shirts of different styles (above). The identity of the person is preserved. When transferring a shorter garment or a different neckline, VOGUE is able to synthesize skin that is realistic and consistent with identity (below). 
 
+<table>
+	<tbody>
+	<tr>
+		<td>
+			<div align="center">
+				 <img class="gif" src="static_files/resources/demo-shirts-slow.gif">
+			</div>
+		</td>
+		<td>
+			<div align="center">
+				<img src="static_files/resources/shirt-tryon.png" alt="">
+			</div>
+		</td>
+	</tr>
+	</tbody>
+</table>
+
 <br>
-<div align="center">
-	<img src="static_files/resources/shirt-tryon.png" alt="">
-</div>
+
 Different people can also try on the same shirt (below). The characteristics of the shirt are preserved across different poses and people.
 
-<div align="center">
-    <img class="gif" src="static_files/resources/demo-shirts-different-people-slow.gif">
-</div>
-
 #### Pants Try-On
+
+<table>
+	<tbody>
+	<tr>
+		<td>
+			<div align="center">
+				<img class="gif" src="static_files/resources/demo-shirts-different-people-slow.gif" width="666" >
+			</div>
+			<div align="center">
+				 <img class="gif" src="static_files/resources/demo-pants-slow.gif">
+			</div>
+		</td>
+		<td colspan="1" rowspan="3">
+			<div align="center">
+				<img src="static_files/resources/pants_tryon.png" alt="">
+			</div>
+		</td>
+	</tr>
+	</tbody>
+</table>
+
 <div align="center">
-	<img class="gif" src="static_files/resources/demo-pants-slow.gif">
-	<img src="static_files/resources/pants_tryon.png" alt="">
+	
+	
 </div>
 
 ### Projected Image Try-On
