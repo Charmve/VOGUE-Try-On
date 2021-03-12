@@ -75,8 +75,12 @@ Virtual try-on between two real images is possible by first projecting the two i
 	</small>
 </p>
 
-
-
 ### Acknowledgements
 
 We thank Edo Collins, Hao Peng, Jiaming Liu, Daniel Bauman, and Blake Farmer for their support of this work.
+
+<br>
+<br>
+<p align="center">Feel free to ask any questions, open a PR if you feel something can be done differently!</p>
+<h2 align="center">🌟Star this repository🌟</h2>
+<p align="center">Created by <a href="https://github.com/Charmve">Charmve</a> & <a href="https://github.com/MaiweiAI">maiwei.ai</a> Community | Deployed on <a href="https://www.kaggle.com/yidazhang07/bridge-cracks-image">Kaggle</a></p>
