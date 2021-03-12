@@ -5,10 +5,10 @@
   		<sup>1</sup>Google Research	<sup>2</sup>MIT CSAIL 	<sup>3</sup>University of Washington
 </pre>
 <div id="buttons">
-    <pre><a href="static_files/resources/VOGUE-virtual-try-on.pdf" target="_blank" class="button big wide smooth-scroll-middle"> Paper </a> </pre>
-    <pre><a href="http://arxiv.org/abs/2101.02285" target="_blank" class="button big wide smooth-scroll-middle">arXiv </a> </pre>
-    <pre><a href="https://youtu.be/AWd7x_3GaZk" target="_blank" class="button big wide smooth-scroll-middle"> Video </a> </pre>
-    <pre><a href="demo_rewrite.html" target="_blank" class="button big wide smooth-scroll-middle"> Interactive Example</a> </pre>
+    <code><a href="static_files/resources/VOGUE-virtual-try-on.pdf" target="_blank" class="button big wide smooth-scroll-middle"> Paper </a> </code>
+    <code><a href="http://arxiv.org/abs/2101.02285" target="_blank" class="button big wide smooth-scroll-middle">arXiv </a> </code>
+    <code><a href="https://youtu.be/AWd7x_3GaZk" target="_blank" class="button big wide smooth-scroll-middle"> Video </a> </code>
+    <code><a href="demo_rewrite.html" target="_blank" class="button big wide smooth-scroll-middle"> Interactive Example</a> </code>
 </div>
 <br>
 
