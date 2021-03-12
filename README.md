@@ -2,7 +2,7 @@
 
 <pre class="major">
  	<a href="https://katiemlewis.github.io/" target="_blank" class="authors">Kathleen M Lewis</a><sup>1,2</sup>		<a href="https://www.linkedin.com/in/srivatsan-varadharajan-9a570818" target="_blank" class="authors">Srivatsan Varadharajan</a><sup>1</sup>		<a href="https://sites.google.com/view/irakemelmacher/home" target="_blank" class="authors">Ira Kemelmacher-Shlizerman</a><sup>1,3</sup>
-  		<sup>1</sup>Google Research	<sup>2</sup>MIT CSAIL	 <sup>3</sup>University of Washington
+  		<sup>1</sup>Google Research	  <sup>2</sup>MIT CSAIL	     <sup>3</sup>University of Washington
 </pre>
 <div id="buttons" align="center">
     <code><a href="static_files/resources/VOGUE-virtual-try-on.pdf" target="_blank" class="button big wide smooth-scroll-middle"> Paper </a> </code>
