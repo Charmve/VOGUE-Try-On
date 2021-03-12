@@ -1,18 +1,15 @@
-# VOGUE-Try-On
-Given an image of a target person and an image of another person wearing a garment, we automatically generate the target person in the given garment.
-
-
-<h2 align="center">VOGUE: Try-On by StyleGAN Interpolation Optimization</h2>
+<h1 align="center">VOGUE: Try-On by StyleGAN Interpolation Optimization</h1>
 
 <pre class="major">
   		<a href="https://katiemlewis.github.io/" target="_blank" class="authors">Kathleen M Lewis</a><sup>1,2</sup>		<a href="https://www.linkedin.com/in/srivatsan-varadharajan-9a570818" target="_blank" class="authors">Srivatsan Varadharajan</a><sup>1</sup>		<a href="https://sites.google.com/view/irakemelmacher/home" target="_blank" class="authors">Ira Kemelmacher-Shlizerman</a><sup>1,3</sup>
-  	<sup>1</sup>Google Research	<sup>2</sup>MIT CSAIL 	<sup>3</sup>University of Washington</pre>
-  <div id="buttons">
-                <a href="static_files/resources/VOGUE-virtual-try-on.pdf" target="_blank" class="button big wide smooth-scroll-middle"> Paper </a>
-                <a href="http://arxiv.org/abs/2101.02285" target="_blank" class="button big wide smooth-scroll-middle">arXiv </a>
-                <a href="https://youtu.be/AWd7x_3GaZk" target="_blank" class="button big wide smooth-scroll-middle"> Video </a>
-                <a href="demo_rewrite.html" target="_blank" class="button big wide smooth-scroll-middle"> Interactive Example</a>
-    </div>
+  		<sup>1</sup>Google Research	<sup>2</sup>MIT CSAIL 	<sup>3</sup>University of Washington
+</pre>
+<div id="buttons">
+	</pre><a href="static_files/resources/VOGUE-virtual-try-on.pdf" target="_blank" class="button big wide smooth-scroll-middle"> Paper </a> </pre>
+    <pre><a href="http://arxiv.org/abs/2101.02285" target="_blank" class="button big wide smooth-scroll-middle">arXiv </a> </pre>
+    <pre><a href="https://youtu.be/AWd7x_3GaZk" target="_blank" class="button big wide smooth-scroll-middle"> Video </a> </pre>
+    <pre><a href="demo_rewrite.html" target="_blank" class="button big wide smooth-scroll-middle"> Interactive Example</a> </pre>
+</div>
 <br>
 
 <div align="center">
@@ -36,18 +33,31 @@ Given an image of a target person and an image of another person wearing a garme
 Figure 2: The try-on optimization setup illustrated here takes two latent codes z<sup>+</sup><sub>1</sub> and z<sup>+</sup><sub>2</sub> (representing two input images) and a pose heatmap as input into a pose-conditioned StyleGAN2 generator (gray). The generator produces the try-on image and its corresponding segmentation by interpolating between the latent codes using the interpolation-coefficients <i>q</i>. By minimizing the loss function over the space of interpolation coefficients, we are able to transfer garment(s) <i>g</i> from a garment image <i>I<sub>g</sub></i>, to the person image <i>I<sub>p</sub></i>.
 
 ### Generated Image Try-On
-<div class="abstract">
-	<p>VOGUE can transfer garments between different poses and body shapes. It preserves garment details (shape, pattern, color, texture) and person identity (hair, skin color, pose). </p>
+
+<p>VOGUE can transfer garments between different poses and body shapes. It preserves garment details (shape, pattern, color, texture) and person identity (hair, skin color, pose). </p>
+	
 #### Shirt Try-On
+<div align="center">
     <img class="gif" src="static_files/resources/demo-shirts-slow.gif">
-    With VOGUE, the same person can try on shirts of different styles (above). The identity of the person is preserved. When transferring a shorter garment or a different neckline, VOGUE is able to synthesize skin that is realistic and consistent with identity (below). 
-		<img src="static_files/resources/shirt-tryon.png" alt="">
-    Different people can also try on the same shirt (below). The characteristics of the shirt are preserved across different poses and people.
+</div>
+
+With VOGUE, the same person can try on shirts of different styles (above). The identity of the person is preserved. When transferring a shorter garment or a different neckline, VOGUE is able to synthesize skin that is realistic and consistent with identity (below). 
+
+<br>
+<div align="center">
+	<img src="static_files/resources/shirt-tryon.png" alt="">
+</div>
+Different people can also try on the same shirt (below). The characteristics of the shirt are preserved across different poses and people.
+
+<div align="center">
     <img class="gif" src="static_files/resources/demo-shirts-different-people-slow.gif">
+</div>
+
 #### Pants Try-On
-    <img class="gif" src="static_files/resources/demo-pants-slow.gif">
-		<img src="static_files/resources/pants_tryon.png" alt="">
-    </div>
+<div align="center">
+	<img class="gif" src="static_files/resources/demo-pants-slow.gif">
+	<img src="static_files/resources/pants_tryon.png" alt="">
+</div>
 
 ### Projected Image Try-On
 
@@ -58,18 +68,15 @@ Virtual try-on between two real images is possible by first projecting the two i
 
 #### Comparison with SOTA
 <img src="static_files/resources/sota_comparison.png" alt="">
-<p><small>
-Wang, Bochao, et al. "Toward characteristic-preserving image-based virtual try-on network." Proceedings of the European Conference on Computer Vision (ECCV). 2018. <br>
-Men, Yifang, et al. "Controllable person image synthesis with attribute-decomposed gan." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.</small>
+<p>
+	<small>
+		Wang, Bochao, et al. "Toward characteristic-preserving image-based virtual try-on network." Proceedings of the European Conference on Computer Vision (ECCV). 2018. <br>
+		<br>Men, Yifang, et al. "Controllable person image synthesis with attribute-decomposed gan." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.	
+	</small>
 </p>
 
 
 
-### Method
+### Acknowledgements
 
-
-
-
-
-
-
+We thank Edo Collins, Hao Peng, Jiaming Liu, Daniel Bauman, and Blake Farmer for their support of this work.
