@@ -8,7 +8,7 @@
     <code><a href="https://charmve.github.io/VOGUE-Try-On/static_files/resources/VOGUE-virtual-try-on.pdf" target="_blank" class="button big wide smooth-scroll-middle"> Paper </a> </code>
     &nbsp;<code><a href="http://arxiv.org/abs/2101.02285" target="_blank" class="button big wide smooth-scroll-middle">arXiv </a> </code>
     &nbsp;<code><a href="https://youtu.be/AWd7x_3GaZk" target="_blank" class="button big wide smooth-scroll-middle"> Video </a> </code>
-    &nbsp;<code><a href="demo_rewrite.html" target="_blank" class="button big wide smooth-scroll-middle"> Interactive Example</a> </code>
+    &nbsp;<code><a href="web_home/demo_rewrite.html" target="_blank" class="button big wide smooth-scroll-middle"> Interactive Example</a> </code>
 </div>
 <br>
 
