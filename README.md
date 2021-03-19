@@ -5,7 +5,7 @@
   		<sup>1</sup>Google Research	    <sup>2</sup>MIT CSAIL	       <sup>3</sup>University of Washington
 </pre>
 <div id="buttons" align="center">
-    <code><a href="https://charmve.github.io/VOGUE-Try-On/static_files/resources/VOGUE-virtual-try-on.pdf" target="_blank" class="button big wide smooth-scroll-middle"> Paper </a> </code>
+    <code><a href="https://charmve.github.io/VOGUE-Try-On/web_home/resources/VOGUE-virtual-try-on.pdf" target="_blank" class="button big wide smooth-scroll-middle"> Paper </a> </code>
     &nbsp;<code><a href="http://arxiv.org/abs/2101.02285" target="_blank" class="button big wide smooth-scroll-middle">arXiv </a> </code>
     &nbsp;<code><a href="https://youtu.be/AWd7x_3GaZk" target="_blank" class="button big wide smooth-scroll-middle"> Video </a> </code>
     &nbsp;<code><a href="web_home/demo_rewrite.html" target="_blank" class="button big wide smooth-scroll-middle"> Interactive Example</a> </code>
@@ -25,9 +25,9 @@ Given an image of a target person and an image of another person wearing a garme
 ### VOGUE Method
 <div class="abstract">
 	<p>We train a pose-conditioned StyleGAN2 network that outputs RGB images and segmentations.</p>
-	<img src="static_files/resources/stylegan.png" alt="" />
+	<img src="web_home/resources/stylegan.png" alt="" />
 	<p>After training our modified StyleGAN2 network, we run an optimization method to learn interpolation coefficients for each style block. These interpolation coefficients are used to combine style codes of two different images and semantically transfer a region of interest from one image to another. This method can be used for generated StyleGAN2 images or on real images by first projecting the real images into the latent space.  </p>
-	<img src="static_files/resources/optimization.png" alt="">
+	<img src="web_home/resources/optimization.png" alt="">
 </div>
 
 Figure 2: The try-on optimization setup illustrated here takes two latent codes z<sup>+</sup><sub>1</sub> and z<sup>+</sup><sub>2</sub> (representing two input images) and a pose heatmap as input into a pose-conditioned StyleGAN2 generator (gray). The generator produces the try-on image and its corresponding segmentation by interpolating between the latent codes using the interpolation-coefficients <i>q</i>. By minimizing the loss function over the space of interpolation coefficients, we are able to transfer garment(s) <i>g</i> from a garment image <i>I<sub>g</sub></i>, to the person image <i>I<sub>p</sub></i>.
@@ -44,12 +44,12 @@ With VOGUE, the same person can try on shirts of different styles (above). The i
 	<tr>
 		<td>
 			<div align="center">
-				 <img class="gif" src="static_files/resources/demo-shirts-slow.gif">
+				 <img class="gif" src="web_home/resources/demo-shirts-slow.gif">
 			</div>
 		</td>
 		<td>
 			<div align="center">
-				<img src="static_files/resources/shirt-tryon.png" alt="">
+				<img src="web_home/resources/shirt-tryon.png" alt="">
 			</div>
 		</td>
 	</tr>
@@ -67,15 +67,15 @@ Different people can also try on the same shirt (below). The characteristics of 
 	<tr>
 		<td>
 			<div align="center">
-				<img class="gif" src="static_files/resources/demo-shirts-different-people-slow.gif" width="666" >
+				<img class="gif" src="web_home/resources/demo-shirts-different-people-slow.gif" width="666" >
 			</div>
 			<div align="center">
-				 <img class="gif" src="static_files/resources/demo-pants-slow.gif">
+				 <img class="gif" src="web_home/resources/demo-pants-slow.gif">
 			</div>
 		</td>
 		<td colspan="1" rowspan="3">
 			<div align="center">
-				<img src="static_files/resources/pants_tryon.png" alt="">
+				<img src="web_home/resources/pants_tryon.png" alt="">
 			</div>
 		</td>
 	</tr>
@@ -92,10 +92,10 @@ Different people can also try on the same shirt (below). The characteristics of 
 Virtual try-on between two real images is possible by first projecting the two images into the StyleGAN Z+ latent space. Improving projection is an active area of research.
 
 #### Shirt Try-On
-<img src="static_files/resources/tryon_real.png" alt="">
+<img src="web_home/resources/tryon_real.png" alt="">
 
 #### Comparison with SOTA
-<img src="static_files/resources/sota_comparison.png" alt="">
+<img src="web_home/resources/sota_comparison.png" alt="">
 <p>
 	<small>
 		Wang, Bochao, et al. "Toward characteristic-preserving image-based virtual try-on network." Proceedings of the European Conference on Computer Vision (ECCV). 2018. <br>
