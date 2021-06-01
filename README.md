@@ -107,6 +107,11 @@ Virtual try-on between two real images is possible by first projecting the two i
 
 We thank Edo Collins, Hao Peng, Jiaming Liu, Daniel Bauman, and Blake Farmer for their support of this work.
 
+
+### Paper list
+
+[A Curated List of Awesome Virtual Try-on (VTON) Research](https://github.com/minar09/awesome-virtual-try-on)
+
 <br>
 <br>
 <p align="center">Feel free to ask any questions, open a PR if you feel something can be done differently!</p>
