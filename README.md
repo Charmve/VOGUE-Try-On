@@ -98,10 +98,16 @@ Virtual try-on between two real images is possible by first projecting the two i
 <img src="web_home/resources/sota_comparison.png" alt="">
 <p>
 	<small>
-		Wang, Bochao, et al. "Toward characteristic-preserving image-based virtual try-on network." Proceedings of the European Conference on Computer Vision (ECCV). 2018. <br>
-		<br>Men, Yifang, et al. "Controllable person image synthesis with attribute-decomposed gan." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.	
+		- Wang, Bochao, et al. "Toward characteristic-preserving image-based virtual try-on network." Proceedings of the European Conference on Computer Vision (ECCV). 2018. <br>
+		- <br>Men, Yifang, et al. "Controllable person image synthesis with attribute-decomposed gan." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.	
 	</small>
 </p>
+
+### Video 
+
+<div class="video">
+	<iframe width="642" height="360" src="https://www.youtube.com/embed/r4NgwLeJWvY" frameborder="0" allow=" autoplay; encrypted-media;" allowfullscreen></iframe>  
+</div> 
 
 ### Acknowledgements
 
