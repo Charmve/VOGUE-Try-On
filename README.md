@@ -116,7 +116,13 @@ We thank Edo Collins, Hao Peng, Jiaming Liu, Daniel Bauman, and Blake Farmer for
 
 ### Paper list
 
-[A Curated List of Awesome Virtual Try-on (VTON) Research](https://github.com/minar09/awesome-virtual-try-on)
+- [A Curated List of Awesome Virtual Try-on (VTON) Research](https://github.com/minar09/awesome-virtual-try-on)
+- https://github.com/cuiaiyu/dressing-in-order
+- https://github.com/switchablenorms/DeepFashion_Try_On
+- https://github.com/aimagelab/dress-code
+- https://github.com/ChongjianGE/DCTON
+- https://psh01087.github.io/VITON-HD/
+- https://github.com/shionhonda/viton-gan
 
 <br>
 <br>
